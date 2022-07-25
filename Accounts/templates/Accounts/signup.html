@@ -1,0 +1,26 @@
+{% extends "Blog/padre.html" %}
+
+{% load static %}
+
+{% block ContenidoQueCambia %}
+<head>
+    
+    <title>Sign Up</title>
+</head>
+<body>
+
+
+    <form action="" method="POST">
+
+        {% csrf_token %}
+
+        {{form.as_p}}
+
+        <button type="submit"> Sign Up</button>
+
+    </form>
+
+    
+</body>
+
+{% endblock %}

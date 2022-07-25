@@ -1,0 +1,26 @@
+{% extends "Blog/padre.html" %}
+
+{% load static %}
+
+{% block ContenidoQueCambia %}
+<head>
+    
+    <title>Log In</title>
+</head>
+<body>
+
+
+    <form action="" method="POST">
+
+        {% csrf_token %}
+
+        {{form.as_p}}
+
+        <button type="submit"> Log In</button>
+
+    </form>
+
+    
+</body>
+
+{% endblock %}

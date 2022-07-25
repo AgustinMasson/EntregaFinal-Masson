@@ -1,0 +1,27 @@
+{% extends "Blog/padre2.html" %}
+
+{% load static %}
+
+{% block ContenidoQueCambia %}
+
+ <a href="{% url 'NewPage' %}">NEW PAGE</a>
+
+    <title>Pages</title>
+
+    <ul>
+        {% for page in object_list %}
+        <li>
+            <p>{{ page.titulo }}</p>
+            <p>Author: {{page.autor}}</p>
+            <p>Date: {{page.fecha}}</p>
+            <p>
+                <a href="{% url 'PageDetail' page.id %}">View More</a>
+                <a href="{% url 'UpdatePage' page.id %}">Update</a>
+                <a href="{% url 'DeletePage' page.id %}">Delete</a>
+            </p>
+
+        {% endfor %}
+
+    </ul>
+    
+{% endblock %}

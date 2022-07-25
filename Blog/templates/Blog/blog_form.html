@@ -1,0 +1,23 @@
+{% extends "Blog/padre2.html" %}
+
+{% load static %}
+
+{% block ContenidoQueCambia %}
+
+<title>Update Blog</title>
+
+  <body>
+
+    <form method="POST">
+
+        {% csrf_token %}
+
+        {{ form.as_p }}
+        <div class="content">{{post.post|safe}}</div>
+        <input type="submit" value="Update">
+
+    </form>
+    
+  </body>
+
+{% endblock %}

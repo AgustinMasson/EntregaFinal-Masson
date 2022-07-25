@@ -1,0 +1,85 @@
+ .u-section-1 {
+  background-image: url("images/nba-pronsticos-jaime-portada-blog1.jpg");
+  background-position: 50% 50%;
+  min-height: 1336px;
+}
+
+.u-section-1 .u-group-1 {
+  width: calc(((100% - 1140px) / 2) + 538px);
+  min-height: 143px;
+  background-image: none;
+  margin: 910px 0 0 auto;
+}
+
+.u-section-1 .u-container-layout-1 {
+  padding: 0 19px;
+}
+
+.u-section-1 .u-text-1 {
+  margin: 0;
+}
+
+@media (max-width: 1199px) {
+   .u-section-1 {
+    min-height: 1102px;
+  }
+
+  .u-section-1 .u-group-1 {
+    width: calc(((100% - 940px) / 2) + 538px);
+  }
+
+  .u-section-1 .u-text-1 {
+    margin-right: calc(((100% - 940px) / 2) + -31px);
+    margin-left: calc(((100% - 940px) / 2) + 521px);
+  }
+}
+
+@media (max-width: 991px) {
+   .u-section-1 {
+    min-height: 844px;
+  }
+
+  .u-section-1 .u-group-1 {
+    width: calc(((100% - 720px) / 2) + 538px);
+  }
+
+  .u-section-1 .u-text-1 {
+    margin-right: calc(((100% - 720px) / 2) + -31px);
+    margin-left: calc(((100% - 720px) / 2) + 411px);
+  }
+}
+
+@media (max-width: 767px) {
+   .u-section-1 {
+    min-height: 633px;
+  }
+
+  .u-section-1 .u-group-1 {
+    width: calc(((100% - 540px) / 2) + 538px);
+  }
+
+  .u-section-1 .u-container-layout-1 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .u-section-1 .u-text-1 {
+    margin-right: calc(((100% - 540px) / 2) + -31px);
+    margin-left: calc(((100% - 540px) / 2) + 321px);
+  }
+}
+
+@media (max-width: 575px) {
+   .u-section-1 {
+    min-height: 399px;
+  }
+
+  .u-section-1 .u-group-1 {
+    width: calc(((100% - 340px) / 2) + 340px);
+  }
+
+  .u-section-1 .u-text-1 {
+    margin-right: calc(((100% - 340px) / 2) + -31px);
+    margin-left: calc(((100% - 340px) / 2) + 221px);
+  }
+}
